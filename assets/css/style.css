@@ -1,0 +1,13 @@
+body, html, .container-fluid {
+    height: 100%;
+    background-image: url("../images/eight_horns.png");
+}
+h1{
+    font-family: 'Bangers', cursive;
+}
+h2, li, h5 {
+    font-family: 'Courgette', cursive;
+}
+#game {
+    font-size: 28px;
+}

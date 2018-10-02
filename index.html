@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Courgette" rel="stylesheet">
+    <title>Crystal Collector Game</title>
+</head>
+
+<body>
+    <div class="wrapper text-primary">
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6 text-center">
+                <header>
+                    <h1 class="text-primary" style="margin-top: 10px; font-size: 85px;">Crystal Collector Game</h1>
+                </header>
+                <div class="directions text-light border border-light rounded bg-primary" style="padding-top: 10px;">
+                    <h2>Add the crystals together in a sequence that equals the target number!</h2>
+                </div>
+
+                <div id="game">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span id="target">Target Number: </span>
+                        </li>
+                        <li class="list-group-item">
+                            <span id="win">Wins: </span>
+                        </li>
+                        <li class="list-group-item">
+                            <span id="lose">Losses: </span>
+                        </li>
+                        <li class="list-group-item">
+                            <span id="jewelTotal">Your Total So Far: </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <div class="row align-items-center" style="margin-top: 20px;">
+            <div class="col-md-5"></div>
+            <div class="btn col-md-2 text-center bg-primary restartBtn">
+                <h3 class="text-light">Restart</h3>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="row align-items-center" style="height: 5%; margin-top: 10px;">
+            <div class="col-md-2"></div>
+
+            <div class="btn col-md-2 text-center gem1">
+                <div class="card-border-0">
+                    <img class="card-img" src="assets/images/ruby.png" alt="Card image cap" style="height: 100px; width: 100px">
+                    <div class="card-body" style="padding: 10, 20;">
+                        <h2 class="ruby">Ruby</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="btn col-md-2 text-center gem2">
+                <div class="card-border-0">
+                    <img class="card-img" src="assets/images/diamond.png" alt="Card image cap" style="height: 100px; width: 100px;">
+                    <div class="card-body">
+                        <h2 class="diamond">Diamond</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="btn col-md-2 text-center gem3">
+                <div class="card-border-0">
+                    <img class="card-img" src="assets/images/amethyst.png" alt="Card image cap" style="height: 100px; width: 100px;">
+                    <div class="card-body">
+                        <h2 class="amethyst">Amethyst</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="btn col-md-2 text-center gem4">
+                <div class="card-border-0">
+                    <img class="card-img" src="assets/images/emerald.png" alt="Card image cap" style="height: 100px; width: 100px;">
+                    <div class="card-body">
+                        <h2 class="emerald">Emerald</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
